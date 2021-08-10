@@ -7,4 +7,12 @@ $(document).ready(function() {
     $("#walrus-showing").fadeOut();
     $("#walrus-hidden").fadeIn();
   });
+  $(".clickable3").click(function() {
+    $("#baseball-showing").fadeIn();
+    $("#baseball-hidden").fadeOut();
+  });
+  $(".clickable4").click(function() {
+    $("#baseball-showing").fadeOut();
+    $("#baseball-hidden").fadeIn();
+  });
 });

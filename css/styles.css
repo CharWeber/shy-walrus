@@ -1,6 +1,9 @@
 #walrus-showing {
   display: none;
 }
+#baseball-showing{
+  display:none;
+}
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -15,5 +18,13 @@
 }
 
 .clickable2:hover {
+  text-decoration: underline;
+}
+.clickable3, .clickable4 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable3:hover, .clickable4:hover {
   text-decoration: underline;
 }
